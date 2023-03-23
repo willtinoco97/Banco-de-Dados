@@ -1,9 +1,50 @@
-<mxfile host="app.diagrams.net" modified="2023-03-23T19:19:37.402Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" version="21.1.0" etag="ge4TXl6BrY_3uwAjpl0L" type="github">
+<mxfile host="app.diagrams.net" modified="2023-03-23T19:31:13.970Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="HcA6Avvz8LaCLYt2r2wg" version="21.1.0" type="github">
   <diagram name="Página-1" id="_l61R4p1fGwhk9LOYBU_">
-    <mxGraphModel>
+    <mxGraphModel dx="1164" dy="708" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="lAaRag5LwaGcOvWdoj5R-3" value="PEÇAS" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="130" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="lAaRag5LwaGcOvWdoj5R-4" value="numero&lt;br&gt;cor&amp;nbsp;&lt;br&gt;peso" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="lAaRag5LwaGcOvWdoj5R-3">
+          <mxGeometry x="30" y="30" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lAaRag5LwaGcOvWdoj5R-5" value="DEPOSITO" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="345" y="260" width="110" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="lAaRag5LwaGcOvWdoj5R-6" value="Numero_dep&lt;br&gt;Endereço_dep" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lAaRag5LwaGcOvWdoj5R-5">
+          <mxGeometry x="24" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lAaRag5LwaGcOvWdoj5R-7" value="FORNECEDOR" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="20" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lAaRag5LwaGcOvWdoj5R-8" value="num_fornec&lt;br&gt;endereço_fornec" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lAaRag5LwaGcOvWdoj5R-7">
+          <mxGeometry x="30" y="30" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lAaRag5LwaGcOvWdoj5R-9" value="PROJETO" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="60" width="100" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lAaRag5LwaGcOvWdoj5R-10" value="num_project&lt;br&gt;orçamento" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="lAaRag5LwaGcOvWdoj5R-9">
+          <mxGeometry x="25" y="35" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lAaRag5LwaGcOvWdoj5R-11" value="FUNCIONARIO" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="180" width="105" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="lAaRag5LwaGcOvWdoj5R-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="lAaRag5LwaGcOvWdoj5R-11" source="lAaRag5LwaGcOvWdoj5R-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="10" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lAaRag5LwaGcOvWdoj5R-12" value="num_funcionario&lt;br&gt;Salario&lt;br&gt;Telefone" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="lAaRag5LwaGcOvWdoj5R-11">
+          <mxGeometry x="-2.5" y="30" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="lAaRag5LwaGcOvWdoj5R-13" value="DEPARTAMENTO" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="110" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="lAaRag5LwaGcOvWdoj5R-14" value="num_dep&lt;br&gt;Setor" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="lAaRag5LwaGcOvWdoj5R-13">
+          <mxGeometry x="25" y="30" width="70" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
